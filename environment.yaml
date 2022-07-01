@@ -1,0 +1,25 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+
+  - pytorch
+  - pytorch-lightning
+  - wandb
+  - u8darts-all
+
+  - pandas
+  - scikit-learn
+  - rich
+  - typer
+
+  - black
+  - isort
+  - flake8
+  - flake8-bugbear
+  - mypy
+  - ipywidgets
+  - pre-commit
